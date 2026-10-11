@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benedicte Mawunyo WOMAGNO | Développeuse Web & Mobile</title>
+  <meta name="description" content="Portfolio de Benedicte Mawunyo WOMAGNO, développeuse web et mobile intéressée par l'innovation et la conception de solutions numériques." />
+  <meta name="author" content="Benedicte Mawunyo WOMAGNO" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Benedicte Mawunyo WOMAGNO | Développeuse Web & Mobile" />
+  <meta property="og:description" content="Portfolio de Benedicte Mawunyo WOMAGNO, développeuse web et mobile intéressée par l'innovation et la conception de solutions numériques." />
+  <meta property="og:image" content="assets/Portrait1.png" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#accueil" class="logo" aria-label="Retour à l'accueil">
+        <span class="logo-mark" aria-hidden="true">BW</span>
+        <span class="logo-text">Benedicte<span class="logo-dot">.</span></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Ouvrir le menu"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil" class="nav-link">Accueil</a></li>
+          <li><a href="#a-propos" class="nav-link">À propos</a></li>
+          <li><a href="#projets" class="nav-link">Projets</a></li>
+          <li><a href="#competences" class="nav-link">Compétences</a></li>
+          <li><a href="#realisations" class="nav-link">Réalisations</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ SECTION ACCUEIL ============ -->
+    <section id="accueil" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Benedicte Mawunyo WOMAGNO
+          </h1>
+          <p class="hero-role">Développeuse web &amp; mobile</p>
+
+          <p class="hero-lead">
+            Je conçois des solutions numériques utiles en combinant développement,
+            créativité et compréhension des besoins.
+          </p>
+          <p class="hero-sub">
+            Du développement web et mobile à l'innovation numérique, je m'intéresse
+            aux solutions qui répondent à des problèmes concrets.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">Découvrir mes projets</a>
+            <!-- Bouton CV temporairement en attente :
+            <a href="assets/CV_Benedicte.Womagno.pdf" class="btn btn-secondary" download>Télécharger mon CV</a>
+            -->
+            <a href="#contact" class="btn btn-outline">Me contacter</a>
+          </div>
+
+          <ul class="tech-badges" aria-label="Technologies utilisées ou étudiées">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>PHP</li>
+            <li>Laravel</li>
+            <li>MySQL</li>
+            <li>Flutter</li>
+            <li>Dart</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img
+              src="assets/Portrait1.png"
+              alt="Portrait de Benedicte Mawunyo WOMAGNO"
+              class="photo-img"
+              onerror="this.classList.add('is-missing'); this.removeAttribute('src');"
+            />
+            <span class="photo-fallback" aria-hidden="true">BW</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION À PROPOS ============ -->
+    <section id="a-propos" class="section about">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Parcours</p>
+          <h2 class="section-title">À propos de moi</h2>
+        </header>
+
+        <div class="about-content">
+          <p>
+            Développeuse web et mobile de formation, j'ai acquis des compétences dans
+            la conception et le développement d'applications web et mobiles au cours
+            de mon parcours à l'Académie Digitale Numérique, dans le cadre d'une
+            formation menée notamment avec Simplon Togo.
+          </p>
+          <p>
+            Au-delà du développement, je m'intéresse à l'innovation, à
+            l'entrepreneuriat et à la communication. Les projets, concours et
+            expériences collectives auxquels j'ai participé m'ont permis de
+            développer ma créativité, ma capacité à travailler en équipe et mon
+            aptitude à présenter des idées.
+          </p>
+          <p>
+            Je souhaite poursuivre mon évolution dans le numérique en contribuant à
+            des projets utiles, tout en continuant à apprendre et à explorer de
+            nouvelles approches technologiques.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION PROJETS ============ -->
+    <section id="projets" class="section projects">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Réalisations</p>
+          <h2 class="section-title">Mes projets</h2>
+          <p class="section-intro">
+            Une sélection de projets sur lesquels j'ai travaillé ou que j'explore
+            actuellement, entre développement, innovation et entrepreneuriat.
+          </p>
+        </header>
+
+        <div class="projects-grid">
+
+          <!-- Projet 1 : Ritmo / DisciplineHub -->
+          <article class="project-card">
+            <div class="project-media">
+              <img
+                src="assets/Ritmo-IA-Dashboard.png"
+                alt="Aperçu du projet Ritmo – DisciplineHub"
+                loading="lazy"
+                onerror="this.classList.add('is-missing'); this.removeAttribute('src');"
+              />
+              <span class="project-media-fallback" aria-hidden="true">Ritmo</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">DisciplineHub – Ritmo</h3>
+              <p class="project-description">
+                Ritmo est une solution digitale conçue pour aider les particuliers,
+                étudiants, entrepreneurs et entreprises à mieux définir, organiser
+                et atteindre leurs objectifs.
+              </p>
+              <ul class="project-tags" aria-label="Technologies utilisées">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Laravel</li>
+                <li>MySQL</li>
+              </ul>
+              <div class="project-award-banner">
+                <span class="award-pill">🥇 1ère Place</span>
+                <span>Projet ayant remporté la première place au concours de pitch de la JCI Universitaire Lomé.</span>
+              </div>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-ghost js-project-toggle"
+                  aria-expanded="false"
+                  aria-controls="project-ritmo-details"
+                >
+                  En savoir plus
+                </button>
+                <!-- Lien GitHub à activer lorsque disponible :
+                <a href="[MON_LIEN_GITHUB_RITMO]" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+                -->
+              </div>
+              <div class="project-details" id="project-ritmo-details" hidden>
+                <h4>Fonctionnalités</h4>
+                <ul>
+                  <li>Création et gestion d'objectifs</li>
+                  <li>Suivi de progression</li>
+                  <li>Statistiques et pourcentage de réalisation</li>
+                  <li>Calendrier et suivi des objectifs actifs</li>
+                  <li>Visualisation des données</li>
+                </ul>
+                <p class="project-note">
+                  Certaines fonctionnalités d'intelligence artificielle sont
+                  envisagées mais ne sont pas encore intégrées à l'application.
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projet 2 : MonAllié Santé -->
+          <article class="project-card">
+            <div class="project-media">
+              <img
+                src="assets/allieeSante.png"
+                alt="Aperçu du concept MonAllié Santé"
+                loading="lazy"
+                onerror="this.classList.add('is-missing'); this.removeAttribute('src');"
+              />
+              <span class="project-media-fallback" aria-hidden="true">MonAllié</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MonAllié Santé</h3>
+              <p class="project-description">
+                MonAllié Santé est un concept de solution numérique visant à
+                faciliter l'accès à l'information et à l'orientation en santé
+                sexuelle et reproductive.
+              </p>
+              <p class="project-status">
+                <span class="status-dot" aria-hidden="true"></span>
+                Concept / prototype visuel en cours de développement.
+              </p>
+              <div class="project-actions">
+                <button
+                  type="button"
+                  class="btn btn-ghost js-project-toggle"
+                  aria-expanded="false"
+                  aria-controls="project-monallie-details"
+                >
+                  En savoir plus
+                </button>
+              </div>
+              <div class="project-details" id="project-monallie-details" hidden>
+                <h4>Objectif</h4>
+                <p>
+                  Faciliter l'accès à des informations de prévention et aider les
+                  utilisatrices à identifier les ressources et services de santé
+                  adaptés.
+                </p>
+                <h4>Fonctionnalités envisagées</h4>
+                <ul>
+                  <li>Assistant conversationnel d'information</li>
+                  <li>Contenus de prévention</li>
+                  <li>Orientation vers des ressources pertinentes</li>
+                  <li>Suivi du cycle menstruel</li>
+                  <li>Recherche de centres de santé</li>
+                  <li>Prise de rendez-vous</li>
+                  <li>Organisation de certaines informations de santé</li>
+                </ul>
+                <p class="project-note">
+                  Ce projet est un concept en cours d'exploration. Il ne s'agit pas
+                  d'une application médicale opérationnelle et il ne pose aucun
+                  diagnostic.
+                </p>
+              </div>
+            </div>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION COMPÉTENCES ============ -->
+    <section id="competences" class="section skills">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Boîte à outils</p>
+          <h2 class="section-title">Mes compétences</h2>
+          <p class="section-intro">
+            Technologies et compétences que j'ai utilisées ou étudiées au cours de
+            mon parcours.
+          </p>
+        </header>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Développement web</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>TypeScript / TSX</li>
+              <li>React</li>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>WordPress</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Développement mobile</h3>
+            <ul class="skill-list">
+              <li>Flutter</li>
+              <li>Dart</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Bases de données</h3>
+            <ul class="skill-list">
+              <li>MySQL</li>
+              <li>SQLite</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Outils et bibliothèques</h3>
+            <ul class="skill-list">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Figma</li>
+              <li>Axios</li>
+              <li>React Router</li>
+              <li>Recharts</li>
+              <li>Lucide</li>
+            </ul>
+          </div>
+
+          <div class="skill-card skill-card--wide">
+            <h3>Compétences complémentaires</h3>
+            <ul class="skill-list">
+              <li>Résolution de problèmes</li>
+              <li>Créativité et ingéniosité</li>
+              <li>Travail en équipe</li>
+              <li>Communication</li>
+              <li>Prise de parole</li>
+              <li>Présentation de projets</li>
+              <li>Conception de solutions numériques</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION RÉALISATIONS ============ -->
+    <section id="realisations" class="section achievements">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Palmarès &amp; Distinctions</p>
+          <h2 class="section-title">Mes récompenses &amp; réalisations</h2>
+          <p class="section-intro">
+            Distinctions, prix d'excellence et expériences collectives qui témoignent de mon engagement et de mon esprit d'innovation.
+          </p>
+        </header>
+
+        <div class="awards-grid">
+
+          <!-- 1ère Place : JCI -->
+          <article class="award-card award-card--gold">
+            <div class="award-top">
+              <div class="award-icon-box" aria-hidden="true">🥇</div>
+              <span class="award-badge award-badge--gold">1ère Place · Lauréate</span>
+              <span class="award-year">2026</span>
+            </div>
+            <h3 class="award-title">Concours de pitch JCI Universitaire Lomé</h3>
+            <p class="award-text">
+              Première place remportée avec le projet <strong>DisciplineHub – Ritmo</strong>, distingué pour sa créativité, son utilité et son potentiel d'innovation.
+            </p>
+          </article>
+
+          <!-- 1ère Place : Vacances Média Jeune -->
+          <article class="award-card award-card--gold">
+            <div class="award-top">
+              <div class="award-icon-box" aria-hidden="true">🎙️</div>
+              <span class="award-badge award-badge--gold">1ère Place · Lauréate</span>
+              <span class="award-year">2026</span>
+            </div>
+            <h3 class="award-title">Vacances Média Jeune (Radio)</h3>
+            <p class="award-text">
+              Première place remportée au concours d'animation et de communication radio organisé sur <strong>Radio Gloire à Dieu</strong>.
+            </p>
+          </article>
+
+          <!-- Coup de Cœur du Jury : Togo IT Days -->
+          <article class="award-card award-card--featured">
+            <div class="award-top">
+              <div class="award-icon-box" aria-hidden="true">🏆</div>
+              <span class="award-badge award-badge--rose">Coup de cœur du jury</span>
+              <span class="award-year">2026</span>
+            </div>
+            <h3 class="award-title">Togo IT Days — Hackathon Tech</h3>
+            <p class="award-text">
+              Prix « Coup de cœur du jury » remporté par notre équipe lors du hackathon pour l'originalité et la pertinence de la solution développée.
+            </p>
+          </article>
+
+          <!-- Équipe Lauréate : Lomé Summer School -->
+          <article class="award-card award-card--featured">
+            <div class="award-top">
+              <div class="award-icon-box" aria-hidden="true">✨</div>
+              <span class="award-badge award-badge--purple">Équipe Lauréate</span>
+              <span class="award-year">2026</span>
+            </div>
+            <h3 class="award-title">Lomé Summer School sur l'IA</h3>
+            <p class="award-text">
+              Participation au programme d'excellence et au hackathon en intelligence artificielle — sélectionnée parmi les équipes lauréates.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTION CONTACT ============ -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Contact</p>
+          <h2 class="section-title">Travaillons ensemble</h2>
+          <p class="section-intro">
+            Vous souhaitez échanger autour d'un projet numérique, d'une
+            collaboration ou d'une opportunité ? N'hésitez pas à me contacter.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <ul class="contact-list" id="contact-list">
+            <li class="contact-item" data-contact="email">
+              <span class="contact-label">Email</span>
+              <a href="mailto:benedictewomagno@gmail.com" class="contact-value">benedictewomagno@gmail.com</a>
+            </li>
+            <li class="contact-item" data-contact="phone">
+              <span class="contact-label">Téléphone / WhatsApp</span>
+              <a href="https://wa.me/22898261700" class="contact-value" target="_blank" rel="noopener">+228 98 26 17 00</a>
+            </li>
+            <li class="contact-item" data-contact="github">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/bene2006dicte" class="contact-value" target="_blank" rel="noopener">github.com/bene2006dicte</a>
+            </li>
+          </ul>
+
+          <div class="contact-cta">
+            <p class="contact-cta-text">
+              La voie la plus rapide reste l'email ou WhatsApp. Écrivez-moi directement, je vous
+              répondrai dès que possible.
+            </p>
+            <a href="mailto:benedictewomagno@gmail.com" class="btn btn-primary" id="contact-mail-btn">
+              M'envoyer un email
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Benedicte Mawunyo WOMAGNO</p>
+        <p class="footer-role">Développeuse web &amp; mobile</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navigation du pied de page">
+        <a href="#accueil">Accueil</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <p class="footer-copy">
+        &copy; <span id="current-year">2026</span> Benedicte Mawunyo WOMAGNO. Tous droits réservés.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
